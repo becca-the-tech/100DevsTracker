@@ -1,0 +1,68 @@
+nav li a {
+    text-decoration: none;
+    display: inline-block;
+    padding-right: 3%;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+.container {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 1px solid navy;
+    padding: 10px;
+    background: #cfc5a5;
+}
+
+
+div {
+    text-align: right;
+    padding: 0px 25px;
+    font-size: 1.1rem;
+}
+
+.completed {
+    background: #a1cae2;
+    text-decoration: line-through;
+}
+
+.in_progress {
+    background: #3f8fd2;
+  }
+
+.sample {
+    display: none;
+}
+
+h3 a{
+    position: absolute;
+    right: 7%;
+    font-size: 1rem;
+    text-decoration: none;
+  }
+
+article {
+    padding: 20px 3%;
+    margin: 2% 3%;
+    opacity: 0.8;
+    border-radius: 30px;
+    background: linear-gradient(45deg, #c2b092 50%,  #eae3c8 50%);
+}
+
+article:nth-of-type(2n) {
+    background: linear-gradient(45deg, #eae3c8 50%, #c2b092  50%);
+}
+
+a {
+    color: navy;
+    text-decoration-style: dotted;
+  }
